@@ -1,2 +1,1 @@
-# dsago
-Data Structure &amp; Algorithms in Go
+# Data structure & Algorithms in Go
