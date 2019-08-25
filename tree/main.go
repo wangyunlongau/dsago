@@ -3,6 +3,7 @@ package main
 import "fmt"
 import "github.com/dsago/inordertraversal"
 import "github.com/dsago/preordertraversal"
+import "github.com/dsago/postordertraversal"
 import "github.com/dsago/types"
 
 func main() {
@@ -12,6 +13,8 @@ func main() {
 	
 	var inorderTraversalResults = inordertraversal.InorderTraversal(&node)
 	var preorderTraversalResults = preordertraversal.PreorderTraversal(&node)
+	var postorderTraversalResults = postordertraversal.PostorderTraversal(&node)
 	fmt.Println(inorderTraversalResults)
 	fmt.Println(preorderTraversalResults)
+	fmt.Println(postorderTraversalResults)
 }
